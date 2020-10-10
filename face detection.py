@@ -3,18 +3,6 @@ import numpy as np
 
 faceCascade = cv2.CascadeClassifier("Resources/face_cascade.xml")
 eyeCascade = cv2.CascadeClassifier("Resources/eye_cascade.xml")
-# img = cv2.imread("Resources/friends.jpg")
-# imgGrey = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-#
-# faces = faceCascade.detectMultiScale(imgGrey,1.1,7)
-#
-# for (x,y,w,h) in faces:
-#     cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
-#
-#
-# cv2.imshow("image",img)
-# cv2.waitKey(0)
-
 
 vid = cv2.VideoCapture(0)
 
